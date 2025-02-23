@@ -30,13 +30,25 @@ The dataset includes information on various metal concentrations and processing 
 
 ## Key Findings
 - The **Random Forest Regressor** performed best with a final **sMAPE of 0.758** on the test set.
+- The **Linear Regression model** had a lower sMAPE of **0.588**, but Random Forest provided a better balance of accuracy and generalization.
 - The model effectively generalizes to unseen data, providing reliable predictions.
-- Future improvements could include hyperparameter tuning and incorporating additional features.
+- Future improvements could include incorporating additional features.
+
+### Model Performance (sMAPE)
+| Model               | sMAPE Score |
+|---------------------|------------|
+| Linear Regression  | **0.588**   |
+| Random Forest      | **0.758**   |
+  
 
 ## Technologies Used
 - Python (`pandas`, `numpy`, `matplotlib`, `scikit-learn`)
 - Machine Learning (Regression models)
 - Data Visualization (Histograms, Feature Importance, Model Performance Metrics)
+
+## Future Updates
+- Adding additional data visualizations for comparison
+- Adding a feature importance plot to highlight key predictors in the Random Forest model 
 
 ## How to Run
 1. Clone the repository:
